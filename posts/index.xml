@@ -1,29 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Khalil Writes</title>
+    <title>Posts on Swallowed🥱Exception </title>
     <link>https://micaleel.github.io/posts/</link>
-    <description>Recent content in Posts on Khalil Writes</description>
+    <description>Recent content in Posts on Swallowed🥱Exception </description>
+    <image>
+      <title>Swallowed🥱Exception </title>
+      <url>https://micaleel.github.io/papermod-cover.png</url>
+      <link>https://micaleel.github.io/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jun 2023 15:01:56 +0100</lastBuildDate><atom:link href="https://micaleel.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 10 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://micaleel.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello</title>
-      <link>https://micaleel.github.io/posts/hello/</link>
-      <pubDate>Thu, 01 Jun 2023 15:01:56 +0100</pubDate>
+      <title>Bonjour Hugo</title>
+      <link>https://micaleel.github.io/posts/apple-fonts/</link>
+      <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://micaleel.github.io/posts/hello/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mypost</title>
-      <link>https://micaleel.github.io/posts/mypost/</link>
-      <pubDate>Thu, 01 Jun 2023 14:51:07 +0100</pubDate>
-      
-      <guid>https://micaleel.github.io/posts/mypost/</guid>
-      <description>This is some content
-print(&amp;#39;Hello world&amp;#39;) </description>
+      <guid>https://micaleel.github.io/posts/apple-fonts/</guid>
+      <description>This is a demo page before the real content rolls in</description>
     </item>
     
   </channel>

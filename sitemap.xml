@@ -2,32 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://micaleel.github.io/search/</loc>
-    <lastmod>2023-06-01T15:05:36+01:00</lastmod>
-  </url><url>
-    <loc>https://micaleel.github.io/archive/</loc>
-    <lastmod>2023-06-01T15:05:29+01:00</lastmod>
-  </url><url>
-    <loc>https://micaleel.github.io/hello/</loc>
-    <lastmod>2023-06-01T15:01:56+01:00</lastmod>
-  </url><url>
-    <loc>https://micaleel.github.io/posts/hello/</loc>
-    <lastmod>2023-06-01T15:01:56+01:00</lastmod>
-  </url><url>
-    <loc>https://micaleel.github.io/</loc>
-    <lastmod>2023-06-01T15:01:56+01:00</lastmod>
+    <loc>https://micaleel.github.io/posts/apple-fonts/</loc>
+    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://micaleel.github.io/posts/</loc>
-    <lastmod>2023-06-01T15:01:56+01:00</lastmod>
+    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://micaleel.github.io/mypost/</loc>
-    <lastmod>2023-06-01T14:51:07+01:00</lastmod>
+    <loc>https://micaleel.github.io/tags/stuff-nonsense/</loc>
+    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://micaleel.github.io/posts/mypost/</loc>
-    <lastmod>2023-06-01T14:51:07+01:00</lastmod>
+    <loc>https://micaleel.github.io/</loc>
+    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://micaleel.github.io/tags/</loc>
+    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://micaleel.github.io/archives/</loc>
   </url><url>
     <loc>https://micaleel.github.io/categories/</loc>
   </url><url>
-    <loc>https://micaleel.github.io/tags/</loc>
+    <loc>https://micaleel.github.io/search/</loc>
+  </url><url>
+    <loc>https://micaleel.github.io/series/</loc>
   </url>
 </urlset>
