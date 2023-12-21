@@ -11,14 +11,14 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 10 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://micaleel.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://micaleel.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Bonjour Hugo</title>
-      <link>https://micaleel.github.io/posts/apple-fonts/</link>
-      <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
+      <title>Structural Subtyping in Python</title>
+      <link>https://micaleel.github.io/posts/structural-subtyping/</link>
+      <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://micaleel.github.io/posts/apple-fonts/</guid>
-      <description>This is a demo page before the real content rolls in</description>
+      <guid>https://micaleel.github.io/posts/structural-subtyping/</guid>
+      <description>Python supports structural subtyping using typing.Protocols and @runtime_checkable.</description>
     </item>
     
   </channel>

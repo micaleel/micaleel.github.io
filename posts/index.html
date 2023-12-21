@@ -170,14 +170,16 @@ if (!doNotTrack) {
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2>Bonjour Hugo
+    <h2>Structural Subtyping in Python
     </h2>
   </header>
   <div class="entry-content">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Structural subtyping in Python can be achieved using typing.Protocol and the @runtime_checkable decorator.
+Rather than employing abc.ABC for nominal subclasses, a cleaner approach involves combining @typing.runtime_checkable with typing.Protocol.
+By decorating a protocol class with @runtime_checkable, it becomes a runtime protocol which is amenable to isinstance() and issubclass(). Without @runtime_checkable, attempting isinstance() and issubclass() operations will result in a TypeError. Note that, for performance considerations, using hasattr() tends to be notably faster than isinstance() in these cases....</p>
   </div>
-  <footer class="entry-footer"><span title='2023-09-10 00:00:00 +0000 UTC'>September 10, 2023</span>&nbsp;·&nbsp;Khalil Muhammad</footer>
-  <a class="entry-link" aria-label="post link to Bonjour Hugo" href="https://micaleel.github.io/posts/apple-fonts/"></a>
+  <footer class="entry-footer"><span title='2023-09-29 00:00:00 +0000 UTC'>September 29, 2023</span>&nbsp;·&nbsp;Khalil Muhammad</footer>
+  <a class="entry-link" aria-label="post link to Structural Subtyping in Python" href="https://micaleel.github.io/posts/structural-subtyping/"></a>
 </article>
     </main>
     

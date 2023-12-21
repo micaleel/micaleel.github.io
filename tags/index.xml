@@ -11,13 +11,22 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 10 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://micaleel.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://micaleel.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>stuff &amp; nonsense</title>
-      <link>https://micaleel.github.io/tags/stuff-nonsense/</link>
-      <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
+      <title>python</title>
+      <link>https://micaleel.github.io/tags/python/</link>
+      <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://micaleel.github.io/tags/stuff-nonsense/</guid>
+      <guid>https://micaleel.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>typing</title>
+      <link>https://micaleel.github.io/tags/typing/</link>
+      <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://micaleel.github.io/tags/typing/</guid>
       <description></description>
     </item>
     
