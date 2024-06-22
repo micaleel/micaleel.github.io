@@ -1,0 +1,75 @@
+html {
+    --highlight-background-color--normal: hsl(50deg 100% 50% / 15%) !important;
+    --highlight-background-color-underline: hsl(50deg 100% 50% / 100%) !important;
+    --highlight-background-color--active: hsl(50deg 100% 50% / 20%) !important;
+    --highlight-image-background-color--normal: hsl(50deg 100% 50% / 30%) !important;
+    --highlight-image-background-color--active: hsl(50deg 100% 50% / 50%) !important;
+    --js_highlight-normal: #fcf6bf !important;
+    --highlight-background-color--alternative: #CDCDFE !important;
+    --highlight-background-color--alternative--active: #b1b7fe !important;
+    --highlight-text-color: #000 !important;
+    --highlight-text-color--alternative: #000 !important;
+    --highlight-text-color--active: #000 !important;
+    --highlight-icon-color: rgba(0, 0, 0, .6) !important;
+    height: 100%;
+}
+
+body {
+    font-family: "Benton Sans", -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+    /* font-size: 16px; */
+    font-size: 1.2em;
+    line-height: 1.65em;
+    /* line-height: 1.55; */
+    letter-spacing: -0.01rem;
+    word-break: break-word;
+    background: var(--theme);
+
+
+    height: 100%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    font-weight: 400;
+    background: #fff;
+    color: #050512cc;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 1.1em;
+    font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+    font-weight: 600;
+    color: #130536cf;
+}
+
+/* .page-header h1 {
+    font-size: 30px;
+} */
+
+a {
+    color: #130536cf;
+    text-decoration: none;
+}
+
+.post-content a {
+    color: inherit;
+    border-bottom: 2px dotted #130536cf;
+}
+
+.social-icons a svg {
+    height: 15px;
+    width: 15px;
+}
+
+.social-icons {
+    padding: 0px 0;
+}
+
+.social-icons a:not(:last-of-type) {
+    margin-inline-end: 12px;
+}
