@@ -15,6 +15,16 @@
     <lastBuildDate>Fri, 29 Sep 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>AI Washing</title>
+      <link>http://localhost:1313/posts/ai-washing/</link>
+      <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ai-washing/</guid>
+      <description>The promise of generative AI is exaggerated in the short-term and underestimated in the long-term leading to an uncontrollable hype.
+Naturally, many choose to ride this hype with false advertisement to further their agenda — whether it is to drive up stock prices or to win customers.
+BBC recently referred this false misrepresentation of the benefits of AI (to businesses) as &amp;ldquo;AI washing&amp;rdquo;:
+It is a problem that has quietly existed for a number of years, according to data from another tech investment firm, MMC Ventures.</description>
+    </item>
+    <item>
       <title>Structural Subtyping in Python</title>
       <link>http://localhost:1313/posts/structural-subtyping/</link>
       <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
