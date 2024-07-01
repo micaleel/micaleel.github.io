@@ -19,7 +19,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Khalil's Notes
+  title: Khalil's 🪴
   description: >-
     👋🏼, I'm Khalil — a programmer turned AI practitioner. Here, I learn-out-loud
     and share my notes about Machine Learning, AI, Python and Personalisation.
@@ -61,24 +61,19 @@ params:
     - recsys
 
   label:
-    text: "Khalil's Notes"
+    text: "Khalil 🪴"
     iconHeight: 23
     iconWidth: 23
 
   # home-info mode
   homeInfoParams:
-    Title: Hi, I'm [Khalil](/about)
-      <a href="/index.xml" title="RSS" aria-label="RSS">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-      stroke-linecap="round" stroke-linejoin="round" height="23">
-      <path d="M4 11a9 9 0 0 1 9 9" />
-      <path d="M4 4a16 16 0 0 1 16 16" />
-      <circle cx="5" cy="19" r="1" />
-      </svg>
-      </a>
+    Title: Hi, I'm Khalil, [a recovering researcher](/about)
+      <a href="/index.xml" title="RSS" aria-label="RSS">👋🏽</a>
     Content: >
       <div>
-        ...and these are my notes on personalisation, AI, and sofware.
+      <p>Welcome to my notes 🪴! &nbsp;I regularly publish notes to help me learn-out-loud and explore new ideas. My notes will hover around Machine Learning, Product, AI, Python and Personalisation.</p>
+      <br>
+      <p>Reach out to discuss my notes or the process of publishing them.</p>
       </div>
 
   socialIcons:
@@ -107,22 +102,22 @@ params:
 menu:
   main:
     - identifier: search
-      name: search
+      name: search 🔎
       url: /search/
       weight: 1
 
     - identifier: tags
-      name: tags
+      name: tags 🏷 
       url: /tags/
       weight: 2
 
     - identifier: archives
-      name: archives
+      name: archives 📚
       url: /archives/
       weight: 3
 
     - identifier: about
-      name: about
+      name: about 🧑🏽‍💻
       url: /about/
       weight: 4
 
