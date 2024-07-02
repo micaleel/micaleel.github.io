@@ -1,7 +1,7 @@
 ---
 author: "Khalil Muhammad"
 title: "AI Washing"
-date: "2023-09-29"
+date: "2024-06-30"
 description: ""
 tags: ["generative-ai", "ai-washing"]
 ShowToc: false

@@ -12,12 +12,21 @@
     <generator>Hugo -- 0.127.0</generator>
     <language>en-us</language>
     <copyright>bookshelf • now • projects •</copyright>
-    <lastBuildDate>Fri, 29 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monitoring Recommenders</title>
+      <link>http://localhost:1313/posts/monitoring-recsys/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/monitoring-recsys/</guid>
+      <description>Monitoring and observability systems track the performance and reliability of recommender systems in production. They report metrics computed from model inputs, outputs, and customer interactions. These metrics help organisations assess the health and effectiveness of their recommender systems.
+Failure to adopt a proper monitoring and observability system could negatively impact business operations affecting things like user experience and revenue.
+I believe there are three main components essential for monitoring a recommender system in production: Metrics, Logging, and Reporting.</description>
+    </item>
     <item>
       <title>AI Washing</title>
       <link>http://localhost:1313/posts/ai-washing/</link>
-      <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/ai-washing/</guid>
       <description>The promise of generative AI is exaggerated in the short-term and underestimated in the long-term leading to an uncontrollable hype.
 Naturally, many choose to ride this hype with false advertisement to further their agenda — whether it is to drive up stock prices or to win customers.

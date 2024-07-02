@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Swallowed🥱Exception </title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Swallowed🥱Exception </description>
+    <title>Monitoring on Swallowed🥱Exception </title>
+    <link>http://localhost:1313/tags/monitoring/</link>
+    <description>Recent content in Monitoring on Swallowed🥱Exception </description>
     <image>
       <title>Swallowed🥱Exception </title>
       <url>http://localhost:1313/images/home/cover.webp</url>
@@ -13,7 +13,7 @@
     <language>en-us</language>
     <copyright>bookshelf • now • projects •</copyright>
     <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/monitoring/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Monitoring Recommenders</title>
       <link>http://localhost:1313/posts/monitoring-recsys/</link>
@@ -22,23 +22,6 @@
       <description>Monitoring and observability systems track the performance and reliability of recommender systems in production. They report metrics computed from model inputs, outputs, and customer interactions. These metrics help organisations assess the health and effectiveness of their recommender systems.
 Failure to adopt a proper monitoring and observability system could negatively impact business operations affecting things like user experience and revenue.
 I believe there are three main components essential for monitoring a recommender system in production: Metrics, Logging, and Reporting.</description>
-    </item>
-    <item>
-      <title>AI Washing</title>
-      <link>http://localhost:1313/posts/ai-washing/</link>
-      <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ai-washing/</guid>
-      <description>The promise of generative AI is exaggerated in the short-term and underestimated in the long-term leading to an uncontrollable hype.
-Naturally, many choose to ride this hype with false advertisement to further their agenda — whether it is to drive up stock prices or to win customers.
-BBC recently referred this false misrepresentation of the benefits of AI (to businesses) as &amp;ldquo;AI washing&amp;rdquo;:
-It is a problem that has quietly existed for a number of years, according to data from another tech investment firm, MMC Ventures.</description>
-    </item>
-    <item>
-      <title>Structural Subtyping in Python</title>
-      <link>http://localhost:1313/posts/structural-subtyping/</link>
-      <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/structural-subtyping/</guid>
-      <description>Python supports structural subtyping using typing.Protocols and @runtime_checkable.</description>
     </item>
   </channel>
 </rss>
