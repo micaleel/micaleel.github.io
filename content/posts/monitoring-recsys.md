@@ -9,6 +9,8 @@ ShowBreadCrumbs: false
 # weight: 3
 ---
 
+![](https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+
 Monitoring and observability systems track the performance and reliability of recommender systems in production. They report metrics computed from  model inputs, outputs, and customer interactions. These metrics help organisations assess the health and effectiveness of their recommender systems.
 
 Failure to adopt a proper monitoring and observability system could negatively impact business operations affecting things like user experience and revenue.

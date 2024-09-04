@@ -10,7 +10,6 @@ ShowBreadCrumbs: false
 ---
 
 ![](/forest.jpg)
-![](https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
 
 Structural subtyping in Python can be achieved using `typing.Protocol` and the `@runtime_checkable` decorator.
 
