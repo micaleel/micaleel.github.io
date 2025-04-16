@@ -2,87 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on micaleel&#39;s notes</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://micaleel.github.io/tags/</link>
     <description>Recent content in Tags on micaleel&#39;s notes</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Apr 2025 15:13:03 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hugo</title>
-      <link>http://localhost:1313/tags/hugo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/hugo/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Static Site Generator</title>
-      <link>http://localhost:1313/tags/static-site-generator/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/static-site-generator/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tutorial</title>
-      <link>http://localhost:1313/tags/tutorial/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tutorial/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Introduction</title>
-      <link>http://localhost:1313/tags/introduction/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/introduction/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Welcome</title>
-      <link>http://localhost:1313/tags/welcome/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/welcome/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Wed, 16 Apr 2025 20:07:36 +0100</lastBuildDate>
+    <atom:link href="https://micaleel.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Monitoring</title>
-      <link>http://localhost:1313/tags/monitoring/</link>
+      <link>https://micaleel.github.io/tags/monitoring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/monitoring/</guid>
+      <guid>https://micaleel.github.io/tags/monitoring/</guid>
       <description></description>
     </item>
     <item>
       <title>Observability</title>
-      <link>http://localhost:1313/tags/observability/</link>
+      <link>https://micaleel.github.io/tags/observability/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/observability/</guid>
+      <guid>https://micaleel.github.io/tags/observability/</guid>
       <description></description>
     </item>
     <item>
       <title>Ai-Washing</title>
-      <link>http://localhost:1313/tags/ai-washing/</link>
+      <link>https://micaleel.github.io/tags/ai-washing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ai-washing/</guid>
+      <guid>https://micaleel.github.io/tags/ai-washing/</guid>
       <description></description>
     </item>
     <item>
       <title>Generative-Ai</title>
-      <link>http://localhost:1313/tags/generative-ai/</link>
+      <link>https://micaleel.github.io/tags/generative-ai/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/generative-ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>http://localhost:1313/tags/python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/python/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Typing</title>
-      <link>http://localhost:1313/tags/typing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/typing/</guid>
+      <guid>https://micaleel.github.io/tags/generative-ai/</guid>
       <description></description>
     </item>
   </channel>

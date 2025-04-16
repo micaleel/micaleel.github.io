@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
@@ -11,16 +11,16 @@
 Failure to adopt a proper monitoring and observability system could negatively impact business operations affecting things like user experience and revenue.
 I believe there are three main components essential for monitoring a recommender system in production: Metrics, Logging, and Reporting.">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/posts/monitoring-recsys/">
+<link rel="canonical" href="https://micaleel.github.io/posts/monitoring-recsys/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.61cc7b7b57b72669c7030bb974de5aad4af777aadbea740d9da1c7c825076d1f.css" integrity="sha256-Ycx7e1e3JmnHAwu5dN5arUr3d6rb6nQNnaHHyCUHbR8=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="https://micaleel.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://micaleel.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://micaleel.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://micaleel.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://micaleel.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/monitoring-recsys/">
+<link rel="alternate" hreflang="en" href="https://micaleel.github.io/posts/monitoring-recsys/">
 <noscript>
     <style>
         #theme-toggle,
@@ -60,7 +60,7 @@ I believe there are three main components essential for monitoring a recommender
 </noscript>
   
 
-<meta property="og:url" content="http://localhost:1313/posts/monitoring-recsys/">
+<meta property="og:url" content="https://micaleel.github.io/posts/monitoring-recsys/">
   <meta property="og:site_name" content="micaleel&#39;s notes">
   <meta property="og:title" content="Monitoring Recommenders">
   <meta property="og:description" content="Monitoring and observability systems track the performance and reliability of recommender systems in production. They report metrics computed from model inputs, outputs, and customer interactions. These metrics help organisations assess the health and effectiveness of their recommender systems.
@@ -70,12 +70,12 @@ I believe there are three main components essential for monitoring a recommender
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2024-07-01T00:00:00+00:00">
-    <meta property="article:modified_time" content="2024-07-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-04-16T20:07:36+01:00">
     <meta property="article:tag" content="Monitoring">
     <meta property="article:tag" content="Observability">
-    <meta property="og:image" content="http://localhost:1313/pexels-photo-459225.jpeg">
+    <meta property="og:image" content="https://micaleel.github.io/pexels-photo-459225.jpeg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://localhost:1313/pexels-photo-459225.jpeg">
+<meta name="twitter:image" content="https://micaleel.github.io/pexels-photo-459225.jpeg">
 <meta name="twitter:title" content="Monitoring Recommenders">
 <meta name="twitter:description" content="Monitoring and observability systems track the performance and reliability of recommender systems in production. They report metrics computed from model inputs, outputs, and customer interactions. These metrics help organisations assess the health and effectiveness of their recommender systems.
 Failure to adopt a proper monitoring and observability system could negatively impact business operations affecting things like user experience and revenue.
@@ -91,13 +91,13 @@ I believe there are three main components essential for monitoring a recommender
       "@type": "ListItem",
       "position":  1 ,
       "name": "Posts",
-      "item": "http://localhost:1313/posts/"
+      "item": "https://micaleel.github.io/posts/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "Monitoring Recommenders",
-      "item": "http://localhost:1313/posts/monitoring-recsys/"
+      "item": "https://micaleel.github.io/posts/monitoring-recsys/"
     }
   ]
 }
@@ -115,18 +115,18 @@ I believe there are three main components essential for monitoring a recommender
   "articleBody": "Monitoring and observability systems track the performance and reliability of recommender systems in production. They report metrics computed from model inputs, outputs, and customer interactions. These metrics help organisations assess the health and effectiveness of their recommender systems.\nFailure to adopt a proper monitoring and observability system could negatively impact business operations affecting things like user experience and revenue.\nI believe there are three main components essential for monitoring a recommender system in production: Metrics, Logging, and Reporting.\nMetrics: Measuring Performance and Business Alignment Metrics are the backbone of any ML monitoring system because they provide quantifiable insights into model performance and business impact.\nFor recommender systems, a good starting point is to consider metrics that are commonly used to evaluate retrieval and ranking systems. For example:\nAccuracy metrics: NDCG (Normalised Discounted Cumulative Gain), MAP (Mean Average Precision), or MRR (Mean Reciprocal Rank) to evaluate ranking quality. Engagement metrics: Click-through rate (CTR), conversion rate, or time spent on recommended items. Diversity metrics: Category coverage or variance in item similarity scores (to ensure a varied recommendation set). Business KPIs: Revenue or cost per session, or estimated quality of items that delighted the user. Tracking trends and anomalies in metrics could help flag performance degradation or misalignment with business goals.\nLogging: Capturing Inference Data for Analysis Comprehensive logging is crucial for post-hoc analysis, drift detection, and debugging.\nFor recommender systems, consider logging:\nInput features: User demographics, historical interactions, and contextual information. Model outputs: Raw scores, rankings, and final recommendations. Serving metadata: Timestamp, model version, and model-serving API version. User interactions: Clicks, consumptions, or other engagement signals. This data facilitates the reconstruction the model’s decision-making process, detect data drift, and identify patterns in errors or unexpected behaviours.\nReporting: Visualising Trends and Anomalies Effective reporting transforms raw data into actionable insights. For recommender systems, consider these reporting strategies:\nGlobal performance dashboards: Visualise key metrics over time, highlighting trends and anomalies. Segment-level analysis: Break down performance by user segments, item categories, or geographical regions. User-level reports: Enable deep dives into individual user experiences for troubleshooting or personalisation refinement. Drift monitoring: Visualise changes in feature distributions or model predictions over time. A/B test results: Compare metrics across different model versions or recommendation strategies. These reports should be designed to trigger appropriate actions, whether it’s retraining the model, adjusting business rules, or investigating specific issues.\nConclusion By implementing a robust ML monitoring and observability system, organisations can ensure their recommender systems remain reliable and aligned with business objectives. This approach enables proactive maintenance, faster troubleshooting, and data-driven decision-making, ultimately leading to improved user satisfaction and business outcomes.\nThe key to success lies in choosing the right metrics, logging comprehensive data, and creating insightful reports that drive action.\n",
   "wordCount" : "450",
   "inLanguage": "en",
-  "image":"http://localhost:1313/pexels-photo-459225.jpeg","datePublished": "2024-07-01T00:00:00Z",
-  "dateModified": "2024-07-01T00:00:00Z",
+  "image":"https://micaleel.github.io/pexels-photo-459225.jpeg","datePublished": "2024-07-01T00:00:00Z",
+  "dateModified": "2025-04-16T20:07:36+01:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1313/posts/monitoring-recsys/"
+    "@id": "https://micaleel.github.io/posts/monitoring-recsys/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "micaleel's notes",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://localhost:1313/favicon.ico"
+      "url": "https://micaleel.github.io/favicon.ico"
     }
   }
 }
@@ -153,7 +153,7 @@ I believe there are three main components essential for monitoring a recommender
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Swallowed Exception (Alt + H)">Swallowed Exception</a>
+            <a href="https://micaleel.github.io/" accesskey="h" title="Swallowed Exception (Alt + H)">Swallowed Exception</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -179,17 +179,17 @@ I believe there are three main components essential for monitoring a recommender
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/posts/" title="Posts">
+                <a href="https://micaleel.github.io/posts/" title="Posts">
                     <span>Posts</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/notes/" title="Notes">
+                <a href="https://micaleel.github.io/notes/" title="Notes">
                     <span>Notes</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/about/" title="About">
+                <a href="https://micaleel.github.io/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
@@ -207,8 +207,8 @@ I believe there are three main components essential for monitoring a recommender
   </header> 
 <figure class="entry-cover">
             <img loading="eager"
-                srcset='http://localhost:1313/posts/monitoring-recsys/pexels-photo-459225_hua570eb7abeb4a430ad6a00d036b79ea5_185211_360x0_resize_q75_box.jpeg 360w,http://localhost:1313/posts/monitoring-recsys/pexels-photo-459225_hua570eb7abeb4a430ad6a00d036b79ea5_185211_480x0_resize_q75_box.jpeg 480w,http://localhost:1313/posts/monitoring-recsys/pexels-photo-459225_hua570eb7abeb4a430ad6a00d036b79ea5_185211_720x0_resize_q75_box.jpeg 720w,http://localhost:1313/posts/monitoring-recsys/pexels-photo-459225_hua570eb7abeb4a430ad6a00d036b79ea5_185211_1080x0_resize_q75_box.jpeg 1080w,http://localhost:1313/posts/monitoring-recsys/pexels-photo-459225_hua570eb7abeb4a430ad6a00d036b79ea5_185211_1500x0_resize_q75_box.jpeg 1500w,http://localhost:1313/posts/monitoring-recsys/pexels-photo-459225.jpeg 1880w'
-                src="http://localhost:1313/posts/monitoring-recsys/pexels-photo-459225.jpeg"
+                srcset='https://micaleel.github.io/posts/monitoring-recsys/pexels-photo-459225_hua570eb7abeb4a430ad6a00d036b79ea5_185211_360x0_resize_q75_box.jpeg 360w,https://micaleel.github.io/posts/monitoring-recsys/pexels-photo-459225_hua570eb7abeb4a430ad6a00d036b79ea5_185211_480x0_resize_q75_box.jpeg 480w,https://micaleel.github.io/posts/monitoring-recsys/pexels-photo-459225_hua570eb7abeb4a430ad6a00d036b79ea5_185211_720x0_resize_q75_box.jpeg 720w,https://micaleel.github.io/posts/monitoring-recsys/pexels-photo-459225_hua570eb7abeb4a430ad6a00d036b79ea5_185211_1080x0_resize_q75_box.jpeg 1080w,https://micaleel.github.io/posts/monitoring-recsys/pexels-photo-459225_hua570eb7abeb4a430ad6a00d036b79ea5_185211_1500x0_resize_q75_box.jpeg 1500w,https://micaleel.github.io/posts/monitoring-recsys/pexels-photo-459225.jpeg 1880w'
+                src="https://micaleel.github.io/posts/monitoring-recsys/pexels-photo-459225.jpeg"
                 sizes="(min-width: 768px) 720px, 100vw"
                 width="1880" height="892"
                 alt="Monitoring Recommenders">
@@ -256,16 +256,11 @@ I believe there are three main components essential for monitoring a recommender
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/monitoring/">Monitoring</a></li>
-      <li><a href="http://localhost:1313/tags/observability/">Observability</a></li>
+      <li><a href="https://micaleel.github.io/tags/monitoring/">Monitoring</a></li>
+      <li><a href="https://micaleel.github.io/tags/observability/">Observability</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="http://localhost:1313/posts/welcome-to-my-blog/">
-    <span class="title">« Prev</span>
-    <br>
-    <span>Welcome to My Blog</span>
-  </a>
-  <a class="next" href="http://localhost:1313/posts/ai-washing/">
+  <a class="next" href="https://micaleel.github.io/posts/ai-washing/">
     <span class="title">Next »</span>
     <br>
     <span>AI Washing</span>
