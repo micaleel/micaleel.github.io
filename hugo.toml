@@ -1,0 +1,183 @@
+baseURL = 'https://micaleel.github.io/'
+languageCode = 'en-us'
+title = "micaleel's notes"
+paginate = 20
+theme = 'PaperMod'
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+pygmentsUseClasses = true
+
+# Enable Git info for showing last update time
+enableGitInfo = true
+
+# Enable emoji in content files
+enableEmoji = true
+
+[params]
+  env = "production"
+
+  # Site description
+  description = "Khalil's digital garden 🌱"
+  keywords = ["Khalil Muhammad", "Khalil", "Muhammad", "Khalil Muhammad", "Khalil's notes", "Khalil's blog", "Khalil's website", "Khalil's digital garden", "Khalil's digital garden 🌱"]
+  dateFormat = "Jan 2, 2006"
+  ShowRssButtonInSectionTermList = true
+  ShowRssButtonInPost = true
+  ShowRssButtonInHome = true
+  disableSpecial1stPost = true
+
+  # Show reading time
+  ShowReadingTime = true
+  
+  # Show share buttons
+  ShowShareButtons = false
+  
+  # Show post navigation
+  ShowPostNavLinks = true
+  
+  # Show breadcrumbs
+  ShowBreadCrumbs = false
+  
+  # Show code copy buttons
+  ShowCodeCopyButtons = true
+  
+  # Default theme (auto, light, dark)
+  defaultTheme = "auto"
+  
+  # Display full content in RSS feed
+  ShowFullTextinRSS = true
+
+  # Hide footer, meta, and archive
+  hideFooter = true
+  hideMeta = true
+  ShowAllPagesInArchive = true
+
+  [params.label]
+    text = "Swallowed Exception"
+    iconHeight = 16
+    iconWidth = 16
+    
+  mainSections = [
+    "artificial-intelligence",
+    "machine-learning",
+    "ml-ops",
+    "personalisation",
+    "python",
+    "recsys"
+  ]
+
+  [[params.comment]]
+    provider = "utterances"
+    [params.comment.utterances]
+      repo = "micaleel/micaleel.github.io"
+      theme = "github-light"
+      mapping = "title"
+
+  # Custom CSS
+  [params.homeInfoParams]
+    # Title = ""
+    Title = "<a href='/index.xml' title='RSS' aria-label='RSS'>Notes From the Field ツ</a>"
+    Content = """Welcome! These notes are my way of solidifying my learning and exploring new concepts."""
+
+  # Custom CSS
+  [params.assets]
+    customCSS = ["css/custom.css"]
+    disableHLJS = true
+
+  # Custom social links
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/micaleel"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/micaleel"
+  
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/khalil707"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/khalilmuhammad"
+  
+  # Edit post options
+  [params.editPost]
+    URL = "https://github.com/<path_to_repo>/content"
+    Text = "Suggest Changes" # edit text
+    appendFilePath = true # to append file path to Edit link
+  
+# Main menu
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "notes"
+    name = "Notes"
+    url = "/notes/"
+    weight = 15
+  #[[menu.main]]
+  #  identifier = "categories"
+  #  name = "Categories"
+  #  url = "/categories/"
+  #  weight = 20
+  #[[menu.main]]
+  #  identifier = "tags"
+  #  name = "Tags"
+  #  url = "/tags/"
+  #  weight = 30
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 40
+
+pygmentsUseClasses = true
+
+[markup.highlight]
+noClasses = false
+# anchorLineNos = true
+codeFences = true
+guessSyntax = true
+# lineNos = true
+# style = "syntax-highlight"
+# style = "github-dark"
+style = "solarized-light"
+tabWidth = 4
+
+[markup.goldmark.extensions]
+definitionList = true
+footnote = true
+linkify = true
+linkifyProtocol = "https"
+strikethrough = true
+table = true
+taskList = true
+typographer = true
+
+[markup.goldmark.parser]
+autoHeadingID = true
+autoHeadingIDType = "github"
+wrapStandAloneImageWithinParagraph = true
+
+[markup.goldmark.parser.attribute]
+block = false
+title = true
+
+[markup.goldmark.renderer]
+hardWraps = false
+unsafe = true
+xhtml = false
+
+[outputs]
+home = [
+  "HTML",
+  "RSS",
+  "JSON" # is necessary
+]

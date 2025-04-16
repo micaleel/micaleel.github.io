@@ -1,0 +1,85 @@
+.logo a {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Atkinson Hyperlegible", "Merriweather", "Raleway", "Space Grotesk", "Raleway", Helvetica, sans-serif;
+    letter-spacing: -0.05em;
+    text-transform: lowercase;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+    /* Subtle gradient text effect */
+    background-image: linear-gradient(
+        to right,
+        #3a7bd5, /* Blue */
+        #6b48ff, /* Purple */
+        #00d2ff  /* Cyan */
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    /* Slightly reduce the intensity */
+    filter: saturate(0.9);
+}
+
+#menu {
+    font-family: Lato, "Space Grotesk", "Raleway", Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+
+#menu a {
+    font-size: 16px;
+}
+
+/* #menu .active {
+    font-family: monospace;
+    font-weight: 500;
+    position: relative;
+    color: var(--primary);
+    background-color: rgba(var(--primary-rgb), 0.1);
+    padding: 0 8px;
+    border-radius: 4px;
+    border-bottom: none;
+}
+
+#menu .active::after {
+    content: "_";
+    position: relative;
+    display: inline-block;
+    animation: cursor-blink 1s step-end infinite;
+    margin-left: 2px;
+}
+
+@keyframes cursor-blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+} */
+
+
+#menu .active {
+    /* font-family: monospace; */
+    font-weight: 550;
+    position: relative;
+    color: var(--primary);
+    background-color: rgba(var(--primary-rgb), 0.1);
+    padding: 0 8px;
+    border-bottom: none;
+}
+
+#menu .active::after {
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 0.3em;
+    height: 1.2em;
+    background-color: var(--primary);
+    vertical-align: text-bottom;
+    margin-left: 0.3em;
+    animation: cursor-blink 1.2s step-end infinite;
+    opacity: 0.7;
+}
+
+@keyframes cursor-blink {
+    0%, 100% { opacity: 0.7; }
+    50% { opacity: 0; }
+}

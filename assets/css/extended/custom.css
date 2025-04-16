@@ -1,0 +1,153 @@
+/* Custom Fonts */
+
+
+:root {
+    --background: #fff;
+    --code-bg: #fff;
+    --main-font: "Merriweather", "Libre Franklin", "Space Grotesk", Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
+    /* --main-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    --theme: #fff;
+    --radius: 2px;
+    --nav-width: 800px;
+    --main-width: 800px;
+}
+
+* {
+    box-sizing: border-box;
+    text-rendering: geometricPrecision;
+}
+
+body {
+    font-family: var(--main-font);
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.post-content {
+    font-family: var(--main-font);
+}
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+    font-family: "Atkinson Hyperlegible", "Roboto Condensed", var(--main-font);
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+}
+.post-content hr {
+    background: var(--tertiary);
+    border-bottom: 1px dashed var(--secondary-color);
+    height: 2px;
+    margin: 30px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.post-title {
+    /* font-family: var(--main-font); */
+    font-family: "Atkinson Hyperlegible", "Roboto Condensed", var(--main-font);
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    font-size: 48px;
+    font-size: calc((4 - 1) * calc(.012 * min(100vh, 900px)) + 1rem);
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+article h2, h3, h4, h5, h6 {
+    /* font-family: var(--main-font); */
+    font-family: "Atkinson Hyperlegible", "Roboto Condensed", var(--main-font);
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    font-size: 48px;
+    font-size: calc((4 - 1) * calc(.012 * min(100vh, 900px)) + 1rem);
+    margin: 0
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--main-font);
+}
+
+
+
+.entry-header h1 {
+    font-family: "Atkinson Hyperlegible", var(--main-font);
+}
+
+.entry-content {
+    font-family: var(--main-font);
+}
+
+.menu {
+    font-family: var(--main-font);
+}
+
+.post-meta {
+    font-family: "Space Grotesk", var(--main-font);
+}
+
+.post-tags {
+    font-family: var(--main-font);
+    font-family: "Space Grotesk", var(--main-font);
+    text-transform: lowercase;
+    color: var(--tertiary);
+}
+
+.social-icons {
+    font-family: var(--main-font);
+}
+
+.footer {
+    font-family: var(--main-font);
+}
+
+code {
+    font-family: Monospace, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
+}
+
+.first-entry {
+    min-height: 250px;
+    margin-bottom: 0px;
+}
+
+
+.post-description {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-style: italic;
+    /* color: var(--secondary); */
+    font-family: "Alegreya Sans", var(--main-font);
+}
+
+.paginav {
+    border-radius: var(--radius);
+    background: var(--code-bg);
+    border: none;
+    margin-top: 2em;
+    font-size: 0.9em;
+}
+
+.post-content code {
+    margin: auto 0;
+    padding: 4px 6px;
+    font-size: 0.8em;
+    line-height: 1.5;
+    background: var(--code-bg);
+    border-radius: 2px;
+    border: 1px solid var(--border);
+}
+
+.chroma {
+    background-color: unset;
+  }
+
+.page-header h1 {
+    font-family: "Atkinson Hyperlegible", var(--main-font);
+    color: var(--tertiary);
+}

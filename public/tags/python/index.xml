@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Python on Swallowed🥱Exception </title>
+    <title>Python on micaleel&#39;s notes</title>
     <link>http://localhost:1313/tags/python/</link>
-    <description>Recent content in Python on Swallowed🥱Exception </description>
-    <image>
-      <title>Swallowed🥱Exception </title>
-      <url>http://localhost:1313/images/home/cover.webp</url>
-      <link>http://localhost:1313/images/home/cover.webp</link>
-    </image>
+    <description>Recent content in Python on micaleel&#39;s notes</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>en-us</language>
-    <copyright>bookshelf • now • projects •</copyright>
     <lastBuildDate>Fri, 29 Sep 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -20,6 +14,13 @@
       <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/structural-subtyping/</guid>
       <description>Python supports structural subtyping using typing.Protocols and @runtime_checkable.</description>
+      <content:encoded><![CDATA[<p>Structural subtyping in Python can be achieved using <code>typing.Protocol</code> and the <code>@runtime_checkable</code> decorator.</p>
+<p>Rather than employing abc.ABC for nominal subclasses, a cleaner approach involves combining <code>@typing.runtime_checkable</code> with <code>typing.Protocol</code>.</p>
+<p>By decorating a protocol class with <code>@runtime_checkable</code>, it becomes a runtime protocol which is amenable to <code>isinstance()</code> and <code>issubclass()</code>. Without <code>@runtime_checkable</code>, attempting  <code>isinstance()</code> and <code>issubclass()</code> operations will result in a <code>TypeError</code>. Note that, for performance considerations, using hasattr() tends to be notably faster than <code>isinstance()</code> in these cases.</p>
+<p>Structural subtyping is common to languages like Golang and C#, and it sidesteps issues associated with inheritance by favoring compositions.</p>
+<p>For a comprehensive understanding and further details, refer to the Python Enhancement Proposal (PEP) 544 available at <a href="https://peps.python.org/pep-0544/">https://peps.python.org/pep-0544/</a>.</p>
+<p>This article is inspired by Hynek Schlawack&rsquo;s talk: <a href="https://www.youtube.com/watch?v=2qpW1-7TnzA">Subclassing, Composition, Python, and You</a>.</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

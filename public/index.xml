@@ -1,19 +1,129 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Swallowed🥱Exception </title>
+    <title>micaleel&#39;s notes</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Swallowed🥱Exception </description>
-    <image>
-      <title>Swallowed🥱Exception </title>
-      <url>http://localhost:1313/images/home/cover.webp</url>
-      <link>http://localhost:1313/images/home/cover.webp</link>
-    </image>
+    <description>Recent content on micaleel&#39;s notes</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>en-us</language>
-    <copyright>bookshelf • now • projects •</copyright>
-    <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Apr 2025 15:13:03 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello Notes</title>
+      <link>http://localhost:1313/notes/hello-notes/</link>
+      <pubDate>Thu, 03 Apr 2025 15:13:03 +0100</pubDate>
+      <guid>http://localhost:1313/notes/hello-notes/</guid>
+      <description>Hello Notes</description>
+      <content:encoded><![CDATA[<h1 id="hello-notes">Hello Notes</h1>
+<p><a href="https://gohugo.io/">Hugo</a> is a fast and modern static site generator written in Go. It&rsquo;s designed to make website creation fun again. In this post, I&rsquo;ll walk you through the basics of setting up a Hugo website.</p>
+<h2 id="why-choose-hugo">Why Choose Hugo?</h2>
+<p>There are several reasons why Hugo stands out among static site generators:</p>
+<ul>
+<li><strong>Speed</strong>: Hugo is incredibly fast, generating most sites in milliseconds</li>
+<li><strong>Flexibility</strong>: Highly customizable with templates and shortcodes</li>
+<li><strong>Easy Installation</strong>: Simple setup with a single binary</li>
+<li><strong>Great Community</strong>: Active development and helpful community</li>
+<li><strong>No Dependencies</strong>: No need for complex runtime environments</li>
+</ul>
+<h2 id="installation">Installation</h2>
+<p>Installing Hugo is straightforward. Here are the most common methods:</p>
+<h3 id="on-macos">On macOS:</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">brew install hugo
+</span></span></code></pre></div><h3 id="on-windows">On Windows:</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">choco install hugo -confirm
+</span></span></code></pre></div><h3 id="on-linux">On Linux:</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">snap install hugo
+</span></span></code></pre></div><h2 id="creating-a-new-site">Creating a New Site</h2>
+<p>Once Hugo is installed, you can create a new site with:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo new site my-blog
+</span></span></code></pre></div><p>This will create a new directory with the basic Hugo structure.</p>
+<h2 id="adding-a-theme">Adding a Theme</h2>
+<p>Hugo sites rely on themes for design and functionality:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> my-blog
+</span></span><span class="line"><span class="cl">git clone https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+</span></span></code></pre></div><p>Then edit your <code>config.toml</code> file to include:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">theme</span> <span class="p">=</span> <span class="s2">&#34;PaperMod&#34;</span>
+</span></span></code></pre></div><h2 id="creating-content">Creating Content</h2>
+<p>To create a new post:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo new posts/my-first-post.md
+</span></span></code></pre></div><p>Edit the created markdown file to add your content.</p>
+<h2 id="running-your-site-locally">Running Your Site Locally</h2>
+<p>To preview your site:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo server -D
+</span></span></code></pre></div><p>This will start a local web server, usually at <code>http://localhost:1313/</code>.</p>
+<h2 id="building-and-deploying">Building and Deploying</h2>
+<p>When you&rsquo;re ready to publish:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo
+</span></span></code></pre></div><p>This generates your static site in the <code>public</code> directory, which you can then deploy to any web server or hosting service like GitHub Pages, Netlify, or Vercel.</p>
+<h2 id="next-steps">Next Steps</h2>
+<p>As you get more comfortable with Hugo, you can explore:</p>
+<ul>
+<li>Custom shortcodes</li>
+<li>Taxonomies for organizing content</li>
+<li>Customizing themes</li>
+<li>Adding comments and analytics</li>
+<li>Creating custom layouts</li>
+</ul>
+<hr>
+<p><em>Have you built a site with Hugo? Share your experience in the comments!</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Welcome to My Blog</title>
+      <link>http://localhost:1313/posts/welcome-to-my-blog/</link>
+      <pubDate>Thu, 03 Apr 2025 15:12:44 +0100</pubDate>
+      <guid>http://localhost:1313/posts/welcome-to-my-blog/</guid>
+      <description>Hello and welcome to my brand new blog! I&amp;rsquo;m excited to start this journey of sharing my thoughts, experiences, and discoveries with you.
+What to Expect This blog will cover a variety of topics including:
+Technology trends and innovations Coding tutorials and tips Personal development strategies Book reviews Travel adventures And much more! I believe in creating content that&amp;rsquo;s both informative and engaging. My goal is to provide value with every post while building a community of like-minded individuals who share similar interests.</description>
+      <content:encoded><![CDATA[<p>Hello and welcome to my brand new blog! I&rsquo;m excited to start this journey of sharing my thoughts, experiences, and discoveries with you.</p>
+<h2 id="what-to-expect">What to Expect</h2>
+<p>This blog will cover a variety of topics including:</p>
+<ul>
+<li>Technology trends and innovations</li>
+<li>Coding tutorials and tips</li>
+<li>Personal development strategies</li>
+<li>Book reviews</li>
+<li>Travel adventures</li>
+<li>And much more!</li>
+</ul>
+<p>I believe in creating content that&rsquo;s both informative and engaging. My goal is to provide value with every post while building a community of like-minded individuals who share similar interests.</p>
+<h2 id="a-bit-about-me">A Bit About Me</h2>
+<p>I&rsquo;m passionate about technology, continuous learning, and exploring new ideas. When I&rsquo;m not writing or coding, you might find me hiking in the mountains, reading a good book, or experimenting with new recipes in the kitchen.</p>
+<h2 id="lets-connect">Let&rsquo;s Connect</h2>
+<p>I&rsquo;m looking forward to engaging with you through comments and discussions. Your feedback and suggestions will be invaluable in shaping the direction of this blog.</p>
+<p>Stay tuned for regular updates, and thank you for being a part of this journey from the beginning!</p>
+<hr>
+<p><em>Are there any specific topics you&rsquo;d like me to cover in future posts? Let me know in the comments below!</em></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">QueryPlanEntry</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;QueryPlanEntry represents a single stage of a query execution plan.
+</span></span></span><span class="line"><span class="cl"><span class="s2">
+</span></span></span><span class="line"><span class="cl"><span class="s2">    See
+</span></span></span><span class="line"><span class="cl"><span class="s2">    https://cloud.google.com/bigquery/docs/reference/rest/v2/Job#ExplainQueryStage
+</span></span></span><span class="line"><span class="cl"><span class="s2">    for the underlying API representation within query statistics.
+</span></span></span><span class="line"><span class="cl"><span class="s2">    &#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">_properties</span> <span class="o">=</span> <span class="p">{}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nd">@classmethod</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">from_api_repr</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">resource</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&#34;QueryPlanEntry&#34;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;&#34;&#34;Factory: construct instance from the JSON repr.
+</span></span></span><span class="line"><span class="cl"><span class="s2">
+</span></span></span><span class="line"><span class="cl"><span class="s2">        Args:
+</span></span></span><span class="line"><span class="cl"><span class="s2">            resource(Dict[str: object]):
+</span></span></span><span class="line"><span class="cl"><span class="s2">                ExplainQueryStage representation returned from API.
+</span></span></span><span class="line"><span class="cl"><span class="s2">
+</span></span></span><span class="line"><span class="cl"><span class="s2">        Returns:
+</span></span></span><span class="line"><span class="cl"><span class="s2">            google.cloud.bigquery.job.QueryPlanEntry:
+</span></span></span><span class="line"><span class="cl"><span class="s2">                Query plan entry parsed from ``resource``.
+</span></span></span><span class="line"><span class="cl"><span class="s2">        &#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">entry</span> <span class="o">=</span> <span class="bp">cls</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="n">entry</span><span class="o">.</span><span class="n">_properties</span> <span class="o">=</span> <span class="n">resource</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">entry</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ls -la
+</span></span></code></pre></div>]]></content:encoded>
+    </item>
     <item>
       <title>Monitoring Recommenders</title>
       <link>http://localhost:1313/posts/monitoring-recsys/</link>
@@ -22,6 +132,43 @@
       <description>Monitoring and observability systems track the performance and reliability of recommender systems in production. They report metrics computed from model inputs, outputs, and customer interactions. These metrics help organisations assess the health and effectiveness of their recommender systems.
 Failure to adopt a proper monitoring and observability system could negatively impact business operations affecting things like user experience and revenue.
 I believe there are three main components essential for monitoring a recommender system in production: Metrics, Logging, and Reporting.</description>
+      <content:encoded><![CDATA[<p>Monitoring and observability systems track the performance and reliability of recommender systems in production. They report metrics computed from  model inputs, outputs, and customer interactions. These metrics help organisations assess the health and effectiveness of their recommender systems.</p>
+<p>Failure to adopt a proper monitoring and observability system could negatively impact business operations affecting things like user experience and revenue.</p>
+<p>I believe there are three main components essential for monitoring a recommender system in production: Metrics, Logging, and Reporting.</p>
+<h3 id="metrics-measuring-performance-and-business-alignment">Metrics: Measuring Performance and Business Alignment</h3>
+<p>Metrics are the backbone of any ML monitoring system because they provide quantifiable insights into model performance and business impact.</p>
+<p>For recommender systems, a good starting point is to consider metrics that are commonly used to evaluate retrieval and ranking systems. For example:</p>
+<ul>
+<li><strong>Accuracy metrics</strong>: NDCG (Normalised Discounted Cumulative Gain), MAP (Mean Average Precision), or MRR (Mean Reciprocal Rank) to evaluate ranking quality.</li>
+<li><strong>Engagement metrics</strong>: Click-through rate (CTR), conversion rate, or time spent on recommended items.</li>
+<li><strong>Diversity metrics</strong>: Category coverage or variance in item similarity scores (to ensure a varied recommendation set).</li>
+<li><strong>Business KPIs</strong>: Revenue or cost per session, or estimated quality of items that delighted the user.</li>
+</ul>
+<p>Tracking trends and anomalies in metrics could help flag performance degradation or misalignment with business goals.</p>
+<h3 id="logging-capturing-inference-data-for-analysis">Logging: Capturing Inference Data for Analysis</h3>
+<p>Comprehensive logging is crucial for post-hoc analysis, drift detection, and debugging.</p>
+<p>For recommender systems, consider logging:</p>
+<ul>
+<li><strong>Input features</strong>: User demographics, historical interactions, and contextual information.</li>
+<li><strong>Model outputs</strong>: Raw scores, rankings, and final recommendations.</li>
+<li><strong>Serving metadata</strong>: Timestamp, model version, and model-serving API version.</li>
+<li><strong>User interactions</strong>: Clicks, consumptions, or other engagement signals.</li>
+</ul>
+<p>This data facilitates the reconstruction the model&rsquo;s decision-making process, detect data drift, and identify patterns in errors or unexpected behaviours.</p>
+<h3 id="reporting-visualising-trends-and-anomalies">Reporting: Visualising Trends and Anomalies</h3>
+<p>Effective reporting transforms raw data into actionable insights. For recommender systems, consider these reporting strategies:</p>
+<ul>
+<li><strong>Global performance dashboards</strong>: Visualise key metrics over time, highlighting trends and anomalies.</li>
+<li><strong>Segment-level analysis</strong>: Break down performance by user segments, item categories, or geographical regions.</li>
+<li><strong>User-level reports</strong>: Enable deep dives into individual user experiences for troubleshooting or personalisation refinement.</li>
+<li><strong>Drift monitoring</strong>: Visualise changes in feature distributions or model predictions over time.</li>
+<li><strong>A/B test results</strong>: Compare metrics across different model versions or recommendation strategies.</li>
+</ul>
+<p>These reports should be designed to trigger appropriate actions, whether it&rsquo;s retraining the model, adjusting business rules, or investigating specific issues.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>By implementing a robust ML monitoring and observability system, organisations can ensure their recommender systems remain reliable and aligned with business objectives. This approach enables proactive maintenance, faster troubleshooting, and data-driven decision-making, ultimately leading to improved user satisfaction and business outcomes.</p>
+<p>The key to success lies in choosing the right metrics, logging comprehensive data, and creating insightful reports that drive action.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>AI Washing</title>
@@ -32,6 +179,16 @@ I believe there are three main components essential for monitoring a recommender
 Naturally, many choose to ride this hype with false advertisement to further their agenda — whether it is to drive up stock prices or to win customers.
 BBC recently referred this false misrepresentation of the benefits of AI (to businesses) as &amp;ldquo;AI washing&amp;rdquo;:
 It is a problem that has quietly existed for a number of years, according to data from another tech investment firm, MMC Ventures.</description>
+      <content:encoded><![CDATA[<p>The promise of generative AI is exaggerated in the short-term and underestimated in the long-term leading to an uncontrollable hype.</p>
+<p>Naturally, many choose to ride this hype with false advertisement to further their agenda — whether it is to drive up stock prices or to win customers.</p>
+<p><a href="https://www.bbc.com/news/articles/c9xx8122893o">BBC</a> recently referred this false misrepresentation of the benefits of AI (to businesses) as &ldquo;AI washing&rdquo;:</p>
+<blockquote>
+<p>It is a problem that has quietly existed for a number of years, according to data from another tech investment firm, MMC Ventures. In a 2019 study it found that 40% of new tech firms that described themselves as &ldquo;AI start-ups&rdquo; in fact used virtually no AI at all.</p>
+</blockquote>
+<p>Amazon itself decieved customers into thinking that their &ldquo;Just Walk Out&rdquo; technology — that powered Amazon Fresh and Amazon Go shops — was primarly driven by AI. It turned out that <a href="https://www.theverge.com/2024/4/17/24133029/amazon-just-walk-out-cashierless-ai-india">the system was supported by hundreds of works manually checking over 70% of the transactions</a>.</p>
+<p>While should eventually expect regulation to tame the false promises of AI to customer, in the short term we must adapt to ridiculous ads like <a href="https://www.bbc.com/news/articles/c9xx8122893o">an AI driven toothbrush</a>.</p>
+<p>People charged with developing AI solutions have the impossible task to taming expectations and disabusing the believe the stakeholder have about AI being a silverbullet.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Structural Subtyping in Python</title>
@@ -39,13 +196,29 @@ It is a problem that has quietly existed for a number of years, according to dat
       <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/structural-subtyping/</guid>
       <description>Python supports structural subtyping using typing.Protocols and @runtime_checkable.</description>
+      <content:encoded><![CDATA[<p>Structural subtyping in Python can be achieved using <code>typing.Protocol</code> and the <code>@runtime_checkable</code> decorator.</p>
+<p>Rather than employing abc.ABC for nominal subclasses, a cleaner approach involves combining <code>@typing.runtime_checkable</code> with <code>typing.Protocol</code>.</p>
+<p>By decorating a protocol class with <code>@runtime_checkable</code>, it becomes a runtime protocol which is amenable to <code>isinstance()</code> and <code>issubclass()</code>. Without <code>@runtime_checkable</code>, attempting  <code>isinstance()</code> and <code>issubclass()</code> operations will result in a <code>TypeError</code>. Note that, for performance considerations, using hasattr() tends to be notably faster than <code>isinstance()</code> in these cases.</p>
+<p>Structural subtyping is common to languages like Golang and C#, and it sidesteps issues associated with inheritance by favoring compositions.</p>
+<p>For a comprehensive understanding and further details, refer to the Python Enhancement Proposal (PEP) 544 available at <a href="https://peps.python.org/pep-0544/">https://peps.python.org/pep-0544/</a>.</p>
+<p>This article is inspired by Hynek Schlawack&rsquo;s talk: <a href="https://www.youtube.com/watch?v=2qpW1-7TnzA">Subclassing, Composition, Python, and You</a>.</p>
+]]></content:encoded>
     </item>
     <item>
-      <title></title>
+      <title>About Me</title>
       <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>I am a programmer turned AI practitioner</description>
+      <description>All about the author and this blog</description>
+      <content:encoded><![CDATA[<h2 id="hi-im-khalil">Hi, I&rsquo;m Khalil</h2>
+<p>I am a Data Scientist and Machine Learning Engineer based in Dublin.</p>
+<p>I hold a PhD, and my work sits at the intersection of Personalisation, AI Engineering, Search, and Discovery. I&rsquo;m driven by curiosity, creativity, and a relentless desire to build systems that are both intelligent and humane.</p>
+<p>I spend most of my time thinking about how people find the things they care about—and how we can make that faster, smarter, and more meaningful.</p>
+<p>Outside of building and shipping, I care deeply about how we communicate our work—because the best ideas deserve clear, elegant expression. I love to code, teach, and explore better ways to present complex ideas.</p>
+<p>I&rsquo;m guided by a simple belief: the world gets better when we stay ambitious—without stepping on others to climb higher.</p>
+<p>If any of this resonates, you’re welcome to follow along. I write about ML systems, personalization, and what I’m learning. Occasionally, I send updates via a newsletter (still figuring out the right cadence!) and love connecting with thoughtful folks across the space.</p>
+<p>This blog was crafted with care and curiosity. Thanks for stopping by.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Bookshelf</title>
@@ -53,6 +226,10 @@ It is a problem that has quietly existed for a number of years, according to dat
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/bookshelf/</guid>
       <description> Naked Money: A Revealing Look at Our Financial System </description>
+      <content:encoded><![CDATA[<ul>
+<li><a href="https://www.amazon.com/Naked-Money-Revealing-Financial-System/dp/0393353737">Naked Money: A Revealing Look at Our Financial System</a></li>
+</ul>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

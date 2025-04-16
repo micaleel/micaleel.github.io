@@ -1,1 +1,0 @@
-I am a programmer turned AI practitioner
