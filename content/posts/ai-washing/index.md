@@ -8,7 +8,7 @@ ShowToc: false
 ShowBreadCrumbs: false
 # weight: 3
 cover:
-    image: "ai-washing.jpeg"
+    image: "/ai-washing.jpeg"
     alt: "AI Washing"
     caption: "AI Washing"
     relative: false
