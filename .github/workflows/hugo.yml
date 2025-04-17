@@ -55,9 +55,6 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
@@ -65,7 +62,6 @@ jobs:
           HUGO_ENV: production
         run: |
           git submodule update --init --recursive
-          npm ci || true
           hugo \
             --gc \
             --minify \
