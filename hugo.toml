@@ -1,4 +1,4 @@
-baseURL = 'https://micaleel.github.io/'
+baseURL = '//micaleel.github.io/'
 languageCode = 'en-us'
 title = "micaleel's notes"
 theme = 'PaperMod'
