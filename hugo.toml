@@ -119,11 +119,11 @@ enableEmoji = true
     name = "Posts"
     url = "/posts/"
     weight = 10
-  [[menu.main]]
-    identifier = "notes"
-    name = "Notes"
-    url = "/notes/"
-    weight = 15
+  # [[menu.main]]
+  #   identifier = "notes"
+  #   name = "Notes"
+  #   url = "/notes/"
+  #   weight = 15
   #[[menu.main]]
   #  identifier = "categories"
   #  name = "Categories"
@@ -134,11 +134,11 @@ enableEmoji = true
   #  name = "Tags"
   #  url = "/tags/"
   #  weight = 30
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 40
+  # [[menu.main]]
+  #   identifier = "about"
+  #   name = "About"
+  #   url = "/about/"
+  #   weight = 40
 
 pygmentsUseClasses = true
 
