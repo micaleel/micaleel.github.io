@@ -29,7 +29,7 @@ VIRTUAL_ENV="/Users/khalil/Desktop/cbsim/.venv"
 
 I updated it to the correct relative path:
 ```bash
-VIRTUAL_ENV=".venv"
+VIRTUAL_ENV="/path/to/expected/.venv"
 ```
 
 After reactivating the virtual environment, uv commands worked as expected.
