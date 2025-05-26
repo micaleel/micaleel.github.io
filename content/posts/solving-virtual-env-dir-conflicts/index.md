@@ -24,12 +24,12 @@ The error message revealed the root cause: my `VIRTUAL_ENV` environment variable
 
 I located the issue in my virtual environment's activation script (`cbsim/.venv/bin/activate`) where the `VIRTUAL_ENV` variable was incorrectly set to:
 ```bash
-VIRTUAL_ENV="/Users/khalil/Desktop/cbsim/.venv"
+VIRTUAL_ENV="/path/to/unexpected/cbsim/.venv"
 ```
 
 I updated it to the correct relative path:
 ```bash
-VIRTUAL_ENV="/path/to/expected/.venv"
+VIRTUAL_ENV="/path/to/expected/cbsim/.venv"
 ```
 
 After reactivating the virtual environment, uv commands worked as expected.
