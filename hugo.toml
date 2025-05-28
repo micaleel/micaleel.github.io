@@ -10,7 +10,7 @@ enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
-
+googleAnalytics = "G-XPNX62B5Q3"
 pygmentsUseClasses = true
 
 # Enable Git info for showing last update time
