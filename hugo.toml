@@ -183,9 +183,3 @@ home = [
   "RSS",
   "JSON" # is necessary
 ]
-
-[params.analytics]
-  google = "G-XPNX62B5Q3"
-
-# # Alternative method (Hugo's built-in)
-# googleAnalytics = "G-XPNX62B5Q3"
